@@ -33,6 +33,15 @@ xui.Class('App', 'xui.Module',{
                 .setValue("pwd")
             );
             
+            append(
+                xui.create("xui.UI.Image")
+                .setHost(host,"xui_ui_image4")
+                .setLeft("23.61904761904762em")
+                .setTop("5.333333333333333em")
+                .setZIndex(1002)
+                .setSrc("https://img.freepik.com/premium-photo/nice-green-blue-mixed-gradient-background-with-copy-space_7954-37418.jpg")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
